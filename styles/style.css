@@ -124,6 +124,10 @@
   text-align: center;
 }
 
+.section-title_theme_dark {
+  color: #fff;
+}
+
 .section-subtitle {
   width: 60%;
   margin: 0 auto;
@@ -131,6 +135,10 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center; 
+}
+
+.section-subtitle_theme_dark {
+  color: #fff;
 }
 
 .digits {
@@ -148,6 +156,13 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .table__heading {
@@ -200,10 +215,23 @@
   color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.kaufman {
+  background-color: #1f1f1f;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.kaugman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
 }
