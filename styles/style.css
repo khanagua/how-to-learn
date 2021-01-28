@@ -23,7 +23,7 @@
 
 .header__title {
   max-width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -275,7 +275,7 @@
 
 .footer__column-heading {
   margin: 0 0 20px 0;
-  height: 30px;
+  line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
