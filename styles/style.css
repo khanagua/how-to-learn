@@ -46,6 +46,10 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  opacity: .5;
+}
+
 .header__main-illustration {
   position: absolute;
   right: 0;
@@ -224,6 +228,9 @@
   text-decoration: none;
   color: #2f80ed;
 }
+.feynman__link:hover {
+  opacity: .5;
+}
 
 .kaufman {
   background-color: #1f1f1f;
@@ -296,6 +303,10 @@
   font-size: 18px;
   text-decoration: none;
   color: #fff;
+}
+
+.footer__column-link:hover {
+  opacity: .5;
 }
 
 .footer__author{
