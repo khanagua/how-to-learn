@@ -1,0 +1,23 @@
+{
+  "name": "how-to-learn",
+  "version": "1.0.0",
+  "description": "в рамках обучения в Яндекс.Практикуме. \r Описывает разные подходы к процессу обучения",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanagua/how-to-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khanagua/how-to-learn/issues"
+  },
+  "homepage": "https://github.com/khanagua/how-to-learn#readme",
+  "devDependencies": {
+    "css-to-bem-file-structure": "github:tadatuta/bem-tools-create-by-css"
+  }
+}
