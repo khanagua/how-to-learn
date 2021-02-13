@@ -2,6 +2,7 @@
   width: 183px;
   background-repeat: no-repeat;
   background-size: 100%;
+  transition: opacity .5s;
 }
 
 .logo:hover {
