@@ -1,5 +1,6 @@
 .khan__buy-link {
   display: block;
+  align-self: start;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
